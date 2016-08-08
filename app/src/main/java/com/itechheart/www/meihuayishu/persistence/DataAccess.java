@@ -403,6 +403,7 @@ public class DataAccess {
 
     }
 
+    //close database
     public void close() { System.out.println("Closed " + dbType + " database" + dbName); }
 
     public String findTitleByCode(String code) {
